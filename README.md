@@ -10,7 +10,8 @@ S3_FILE = <出力するCSVファイル名>
 ### Layerの設定
 
 以下のpythonバージョン別のリストから、「requests」、「pandas」のARNを選択して登録する。  
-https://github.com/keithrozario/Klayers?tab=readme-ov-file#list-of-arns
+https://github.com/keithrozario/Klayers?tab=readme-ov-file#list-of-arns  
+pythonのバージョン毎、awsのリージョン毎にある。  
 
 ### 適切なIAMロール、ポリシーの設定
 
