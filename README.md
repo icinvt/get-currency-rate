@@ -1,4 +1,9 @@
-# 事前準備
+# AWS lamdbaによる外国為替レートの取得関数
+
+この関数はみずほ銀行のサイトにある外国為替レートを参照してCSVファイルとして出力するものです。
+https://www.mizuhobank.co.jp/market/historical/index.html
+
+## 事前準備
 
 ###  環境変数の設定
 
