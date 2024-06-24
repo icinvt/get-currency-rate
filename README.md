@@ -7,18 +7,18 @@ https://www.mizuhobank.co.jp/market/historical/index.html
 
 ###  環境変数の設定
 
-以下の環境変数を設定する。
+以下の環境変数を設定します。
 
 S3_BUCKET = <出力先のS3バケット名>  
 S3_FILE = <出力するCSVファイル名>  
 
 ### Layerの設定
 
-以下のpythonバージョン別のリストから、「requests」、「pandas」のARNを選択して登録する。  
+以下のpythonバージョン別のリストから、「requests」、「pandas」のARNを選択して登録します。  
 https://github.com/keithrozario/Klayers?tab=readme-ov-file#list-of-arns  
-pythonのバージョン毎、awsのリージョン毎にある。  
+pythonのバージョン毎、awsのリージョン毎にあります。  
 
 ### 適切なIAMロール、ポリシーの設定
 
-以下のURLの内容に従って、適切なIAMロール、ポリシーを設定する。  
+以下のURLの内容に従って、適切なIAMロール、ポリシーを設定します。  
 https://aws.amazon.com/jp/builders-flash/202309/learn-lambda-iam-policies/
