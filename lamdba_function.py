@@ -24,8 +24,8 @@ def lambda_handler(event, context):
             file.close()
         '''
         s3 = boto3.resource('s3')
-        bucket = s3.Bucket(bucket)
-        bucket.upload_file('/tmp/tmp.csv', outfile)
+        use_bucket = s3.Bucket(bucket)
+        use_bucket.upload_file('/tmp/tmp.csv', outfile)
         os.remove('/tmp/tmp.csv')
     return {
         'statusCode': response.status_code,
